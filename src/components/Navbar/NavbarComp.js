@@ -11,7 +11,7 @@ export default class NavbarComp extends Component {
   render() {
     return (
       <Navbar collapseOnSelect expand="md" >
-      <Container className="container">
+      <Container>
       <Navbar.Brand href="#home">
         <img src={logoNav}
         />
