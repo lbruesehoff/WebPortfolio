@@ -4,8 +4,8 @@
   
 }
 .header{
-  width: 100%;
   display: flex;
+  width: 100%;
 }
 
 .text-box{
@@ -24,7 +24,6 @@
 .introText{
   height: fit-content;
   width: fit-content;
-
 }
 
 .aboutMeBtn{
