@@ -1,7 +1,7 @@
-.container{
+.headerContent{
   display:flex;
   position: relative;
-  
+  padding: 0 8%;
 }
 .header{
   display: flex;
@@ -46,3 +46,29 @@
   flex-grow: 1;
 }
 
+@media (max-width:500px){
+ .text-box{
+   position: relative;
+ }
+
+ .headerContent{
+   flex-direction: column;
+   padding: 0 5%;
+   align-items: center;
+ }
+
+ .text-box{
+  font-size: 10vw;
+  width: 100%;
+  padding: 10% 0 0 0;
+}
+
+.aboutMeBtn{
+  font-size: 5vw;
+  padding-top:3% 0;
+  margin: 5% 0 0 0;
+
+  
+}
+
+}

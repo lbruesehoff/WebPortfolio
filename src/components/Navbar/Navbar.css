@@ -1,5 +1,6 @@
 nav{
   font-size: 3vh;
+  text-transform: uppercase;
 }
 
 @media (min-width: 1600px){

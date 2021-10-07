@@ -4,7 +4,7 @@ import './banner.css'
 export default class Banner extends Component {
   render() {
     return (
-      <div className="container">
+      <div className="headerContent">
           <img className="header" src="./images/banner.jpg" alt="Banner"/>
           <div className="text-box">
             <div className="introText">

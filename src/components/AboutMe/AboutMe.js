@@ -10,7 +10,7 @@ export default class AboutMe extends Component {
             <img className="avatar" src="./images/Avatar.png" alt="Avatar"/>
           </div>
           <div className="about">
-            <hr className="line"/>
+            <hr/>
             <h1>About Me</h1>
             <p> 
               I’m a junior front-end developer looking for a new role in an exciting company. 
@@ -24,7 +24,6 @@ export default class AboutMe extends Component {
             <button>Go to portfolio</button>
             <hr/>
           </div>
-
       </div>
     )
   }
