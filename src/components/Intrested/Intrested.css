@@ -1,0 +1,38 @@
+.intrestContent{
+  display: flex;
+  padding: 10% 15% 0 15%;
+
+}
+
+.intrestContent h1{
+  font-size: 3vw;
+  flex-grow: 2;
+}
+
+
+.intrestContent button{
+  background-color: white;
+  flex-grow: 1;
+  padding: 1% 2% 1% 2%;
+  margin: 0 13% 5% 0;
+  font-size: 1.5vw;
+}
+
+@media (max-width:500px){
+  .intrestContent{
+    flex-direction: column;
+  }
+  .intrestContent h1{
+    font-size: 9vw;
+    align-self: center;
+    text-align: center;
+    margin-top: 10%;
+  }
+
+  .intrestContent button{
+    font-size: 5vw;
+    padding: 2% 4%;
+    margin: 15% 0;
+    align-self: center;
+  }
+}

@@ -11,20 +11,20 @@ export default class NavbarComp extends Component {
   render() {
     return (
       <Navbar collapseOnSelect expand="md" >
-      <Container>
-      <Navbar.Brand href="#home">
-        <img src={logoNav}
-        />
-      </Navbar.Brand>
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-        <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="ms-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#portfolio">Portfolio</Nav.Link>
-            <Nav.Link href="#contact">Contact Me</Nav.Link>
-          </Nav>
-        </Navbar.Collapse>
-        </Container>
+        <Container>
+        <Navbar.Brand href="#home">
+          <img src={logoNav}
+          />
+        </Navbar.Brand>
+          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+          <Navbar.Collapse id="responsive-navbar-nav">
+            <Nav className="ms-auto">
+              <Nav.Link href="#home">Home</Nav.Link>
+              <Nav.Link href="#portfolio">Portfolio</Nav.Link>
+              <Nav.Link href="#contact">Contact Me</Nav.Link>
+            </Nav>
+          </Navbar.Collapse>
+          </Container>
       </Navbar>
     )
   }
