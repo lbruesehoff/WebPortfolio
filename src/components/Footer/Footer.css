@@ -1,15 +1,32 @@
 .footerContent{
-
+  background-color: #203A4c;
+  
+ 
 }
 
 .footerContent ul{
-  background-color: #203A4c;
-  
+  padding: 1%;
+  margin: 0%;
 }
 
 .footerContent li{
+  list-style-type: none;
+  padding:0% 1% 0 1%;
+  margin-left: 5%;
   display: inline;
-  padding: 10% 5% 10% 5%;
   color: white;
-  
+  font-size: 1.5vw;
+}
+
+.footerLogo{
+  display: inline;
+}
+
+.gitHub{
+  display: inline;
+  padding-left: 30%;
+}
+
+.linkedIn{
+  display: inline;
 }
