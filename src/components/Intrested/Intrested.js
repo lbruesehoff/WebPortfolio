@@ -6,9 +6,11 @@ export default class Intrested extends Component {
     return (
       <div className="intrestContent">
 
-        <h1>Intrested in doing a project</h1>
+        <h1>Intrested in collaborating on a project?</h1>
 
-        <button>Contact Me</button>
+        <a href="mailto:lbruesehoff@gmail.com" target="_blank">
+          <button>Contact Me</button>
+        </a>
         
       </div>
     )

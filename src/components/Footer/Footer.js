@@ -16,19 +16,25 @@ export default class Footer extends Component {
                 <img src={logo} />
               </div>
             </li>
-            <li>Home</li>
-            <li>Portfolio</li>
-            <li>Contact</li>
-            <li>
-              <div className="gitHub">
-                <img src={gitHub}/>
-              </div>
-            </li>
-            <li>
-              <div className="linkedIn">
-              <img src={linkedIn}/>
-              </div>
-            </li>
+            <a href=""><li>Home</li></a>
+            <a href=""><li>Portfolio</li></a>
+            <a href=""><li>Contact</li></a>
+            <ul className='ul2'>
+              <li>
+                <div className="gitHub">
+                  <a href='https://github.com/lbruesehoff' target="_blank">
+                    <img src={gitHub}/>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div className="linkedIn">
+                  <a href="https://www.linkedin.com/in/lbruesehoff/" target="_blank">
+                    <img src={linkedIn}/>
+                  </a>
+                </div>
+              </li>
+            </ul>
           </ul>
         
         

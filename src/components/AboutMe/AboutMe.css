@@ -38,6 +38,11 @@
   font-size: 1vw;
 }
 
+.about button:hover{
+  background-color: #33323d;
+  color: white;
+}
+
 @media (max-width:500px)  {
   .content{
     flex-direction: column;
@@ -64,7 +69,25 @@
   }
 
   .about button{
-    font-size: 3vw;
+    font-size: 4vw;
   }
 
+}
+
+@media (min-width:768px) and (max-width:1024px){
+  .about{
+    padding:0% 15% 0% 5%;
+  }
+
+  .about p{
+    font-size: 1.5vw;
+  }
+
+  .about h1{
+    font-size: 5vw;
+  }
+
+  .about button{
+    font-size: 1.3vw;
+  }
 }
