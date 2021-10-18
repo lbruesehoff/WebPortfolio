@@ -1,0 +1,21 @@
+.VonzellaPreview{
+  display: flex;
+  padding: 0% 8%;
+  justify-content: space-evenly;
+}
+
+.VonzellaPreview img{
+  height: 100%;
+  width: 30%;
+}
+
+.VonDesc{
+ padding: 0 15%;
+}
+
+.VonzellaPreview button{
+  background-color: white;
+  padding: 2% 10%;
+  margin-top: 5%;
+  font-size: 1vw;
+}
