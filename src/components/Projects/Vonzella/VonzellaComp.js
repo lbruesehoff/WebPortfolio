@@ -11,10 +11,10 @@ export default class VonzellaComp extends Component {
           <hr/>
           <h1>Vonzella</h1>
           <p>Vonzella is a bail insurance web application that is written with Ruby on Rails, HTML, CSS, Javascript, and BootStrap.
-             This web app uses e-commerce features with their $10 a month subscription connected through stripe,
-            CRUD principles for the database, and SMS features that get sent to the phone number you put in.
+            This is a CRUD web application that uses e-commerce features, SMS features, and authentication. Please note this is an MVP
+            and if you are intrested please contact them.
           </p>
-          <button>View Project</button>
+          <a href="https://app.vonzella.com/" target="_blank"><button>View Project</button></a>
           <hr/>
         </div>
       </div>

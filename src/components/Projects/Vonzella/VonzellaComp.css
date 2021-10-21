@@ -1,21 +1,74 @@
 .VonzellaPreview{
   display: flex;
-  padding: 0% 8%;
+  padding: 0% 8% 0 8%;
   justify-content: space-evenly;
 }
 
 .VonzellaPreview img{
   height: 100%;
   width: 30%;
+  align-self: center;
 }
 
 .VonDesc{
- padding: 0 15%;
+ padding: 0 15% 0 15%;
+ font-size: 1.3vw;
+}
+
+.VonDesc h1{
+  font-size: 3vw;
+}
+
+.VonDesc hr{
+  margin: 10% 0%;
 }
 
 .VonzellaPreview button{
   background-color: white;
   padding: 2% 10%;
   margin-top: 5%;
-  font-size: 1vw;
+  font-size: 1.1vw;
+}
+
+@media (max-width:500px){
+  .VonzellaPreview{
+    flex-direction: column;
+  }
+
+  .VonzellaPreview img{
+    width: 90%;
+  }
+
+  .VonDesc{
+    padding:0% 5%;
+    font-size: 5vw;
+  }
+
+  .VonDesc h1{
+    font-size: 10vw;
+  }
+
+  .VonzellaPreview button{
+    font-size: 4vw;
+  }
+
+}
+
+@media (min-width:768px) and (max-width:1024px){
+  .VonzellaPreview img{
+    width: 45%;
+  }
+
+  .VonDesc{
+    padding:0% 5%;
+    font-size: 2.5vw;
+  }
+
+  .VonDesc h1{
+    font-size: 5vw;
+  }
+
+  .VonzellaPreview button{
+    font-size: 2vw;
+  }
 }
