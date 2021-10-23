@@ -1,0 +1,92 @@
+.PlanetPreview{
+  display: flex;
+  padding: 3% 8% 0 8%;
+  justify-content: space-evenly;
+}
+
+.PlanetMobile{
+  display: none;
+}
+
+.PlanetPreview img{
+  height: 100%;
+  width: 50%;
+  align-self: center;
+  padding-right: 5%;
+}
+
+.PlanetDesc{
+ padding: 0 10% 0 0%;
+ font-size: 1.3vw;
+}
+
+.PlanetDesc h1{
+  font-size: 3vw;
+}
+
+.PlanetDesc hr{
+  margin: 10% 0%;
+}
+
+.PlanetPreview button{
+  background-color: white;
+  padding: 2% 10%;
+  margin-top: 5%;
+  font-size: 1.1vw;
+}
+
+.PlanetPreview button:hover{
+  background-color: #33323d;
+  color: white;
+}
+
+@media (max-width:500px){
+  .PlanetPreview{
+    flex-direction: column;
+  }
+
+  .PlanetImg{
+    display: none;
+  }
+
+  .PlanetMobile{
+    display: flex;
+  }
+
+  .PlanetPreview img{
+    width: 90%;
+  }
+
+  .PlanetDesc{
+    padding:0% 5%;
+    font-size: 5vw;
+  }
+
+  .PlanetDesc h1{
+    font-size: 10vw;
+  }
+
+  .PlanetPreview button{
+    font-size: 4vw;
+  }
+
+}
+
+@media (min-width:768px) and (max-width:1024px){
+  .PlanetPreview img{
+    width: 50%;
+  }
+
+  .PlanetDesc{
+    padding:0% 5% 0 0;
+    font-size: 2.5vw;
+  }
+
+  .PlanetDesc h1{
+    font-size: 5vw;
+  }
+
+  .PlanetPreview button{
+    font-size: 2vw;
+  }
+}

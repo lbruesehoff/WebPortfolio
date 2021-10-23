@@ -5,7 +5,7 @@ export default class Banner extends Component {
   render() {
     return (
       <div className="headerContent">
-          <img className="header" src="./images/banner.jpg" alt="Banner"/>
+          <img className="header" src="./images/Minneapolis.jpg" alt="Banner"/>
           <div className="text-box">
             <div className="introText">
             Hello, I'm Logan Bruesehoff and I love creating beautiful websites.

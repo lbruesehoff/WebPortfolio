@@ -1,5 +1,5 @@
-import React, { Component } from 'react'
 import './AboutMe.css'
+import React, { Component } from 'react'
 
 
 export default class AboutMe extends Component {
@@ -21,7 +21,7 @@ export default class AboutMe extends Component {
               I love being out in nature whether that’s going for a walk, run or cycling. I’d love 
               you to check out my work.
             </p>
-            <button>Go to portfolio</button>
+            <a href="/Portfolio"><button>Go to portfolio</button></a>
             <hr/>
           </div>
       </div>

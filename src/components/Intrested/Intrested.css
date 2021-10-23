@@ -25,6 +25,15 @@
   background-color: #33323d;
   color:white;
 }
+@media (min-width:768px) and (max-width:1024px){
+  .intrestContent h1{
+    font-size: 3vw;
+  }
+
+  .intrestContent button{
+    font-size: 1.8vw;
+  }
+}
 
 @media (max-width:500px){
   .intrestContent{

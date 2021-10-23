@@ -11,7 +11,7 @@
 }
 
 .VonDesc{
- padding: 0 15% 0 15%;
+ padding: 0 5% 0 15%;
  font-size: 1.3vw;
 }
 
@@ -28,6 +28,11 @@
   padding: 2% 10%;
   margin-top: 5%;
   font-size: 1.1vw;
+}
+
+.VonzellaPreview button:hover{
+  background-color: #33323d;
+  color: white;
 }
 
 @media (max-width:500px){

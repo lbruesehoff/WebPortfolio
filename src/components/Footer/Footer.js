@@ -13,11 +13,11 @@ export default class Footer extends Component {
           <ul>
             <li>
               <div className="footerLogo">
-                <img src={logo} />
+                <a href="/"><img src={logo} /></a>
               </div>
             </li>
-            <a href=""><li>Home</li></a>
-            <a href=""><li>Portfolio</li></a>
+            <a href="/"><li>Home</li></a>
+            <a href="/Portfolio"><li>Portfolio</li></a>
             <a href=""><li>Contact</li></a>
             <ul className='ul2'>
               <li>
