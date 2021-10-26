@@ -1,0 +1,25 @@
+.ContactForm{
+  display: flex;
+  padding: 0% 10%;
+  justify-content: space-between;
+}
+
+.form-group{
+  margin-top: 5%;
+}
+.Form input{
+  background-color: rgb(236, 236, 236);
+}
+
+.Form textarea{
+  background-color: rgb(236, 236, 236);
+
+}
+.Form button{
+  background-color: #203a4c;
+  color:white;
+  padding: 3%;
+  font-size: 1.5vw;
+  border: none;
+  margin: 10% 0%;
+}

@@ -7,13 +7,10 @@ export default class ContactIntro extends Component {
   render() {
     return (
       <div className="Contact">
-     
         <div className="ContactTitle">
-          <hr/>
           <h1>Get In Touch</h1>
         </div>
         <div className="ContactText">
-          <hr/>
           <p>
           I’d love to hear about what you’re working on and how I could help. I’m currently 
           looking for a new role and am open to a wide range of opportunities. My preference 
@@ -29,9 +26,9 @@ export default class ContactIntro extends Component {
               </a>
             </div>
             <div className="ContactLinked">
-            <a href="https://www.linkedin.com/in/lbruesehoff/" target="_blank">
-              <img src={linkedIn}/>
-            </a>
+              <a href="https://www.linkedin.com/in/lbruesehoff/" target="_blank">
+                <img src={linkedIn}/>
+              </a>
             </div>
           </div>
         </div>

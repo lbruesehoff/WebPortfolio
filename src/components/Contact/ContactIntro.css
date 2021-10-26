@@ -1,6 +1,6 @@
 .Contact{
   display: flex;
-  padding: 5% 5%;
+  padding: 3% 10%;
 }
 
 .ContactTitle{
@@ -22,4 +22,8 @@
 
 .ContactLinked{
   padding: 0 5% 0 0;
+}
+
+.hrTag{
+  bottom: 45%;
 }
