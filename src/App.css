@@ -1,4 +1,6 @@
 * {
   font-family: 'Ibarra Real Nova', serif;
 }
-
+html {
+  scroll-behavior: smooth;
+}

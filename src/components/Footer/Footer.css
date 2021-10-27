@@ -69,3 +69,20 @@
     
   }
 }
+
+@media (min-width:768px) and (max-width:1024px){
+  .footerContent li{
+    font-size: 4vw;
+  }
+
+  .gitHub{
+    padding-left: 5%;
+  }
+
+  .gitHub img{
+    width: 4%;
+  }
+  .linkedIn img{
+    width: 4%;
+  }
+}

@@ -14,7 +14,7 @@ export default class WeatherComp extends Component {
             and displays the current temp, max temp, min temp, description of temp,
             and what it “feels” like in the city the user enters. 
           </p>
-          <a href="" target="_blank"><button>View Project</button></a>
+          <a href="https://weather-checker-app.herokuapp.com/index.html" target="_blank"><button>View Project</button></a>
           <hr/>
         </div>
       </div>

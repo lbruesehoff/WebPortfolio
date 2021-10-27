@@ -10,7 +10,7 @@ export default class Banner extends Component {
             <div className="introText">
             Hello, I'm Logan Bruesehoff and I love creating beautiful websites.
             </div>
-            <button className="aboutMeBtn">
+            <a href="#AboutMe"><button className="aboutMeBtn">
             
             <div className="svg">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="14"><g fill="none" fill-rule="evenodd" stroke="#5FB4A2">
@@ -21,7 +21,7 @@ export default class Banner extends Component {
             <div className="aboutText">
               About Me
             </div>
-            </button>
+            </button></a>
           </div>
           
       </div>

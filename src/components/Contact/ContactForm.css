@@ -23,3 +23,57 @@
   border: none;
   margin: 10% 0%;
 }
+
+
+@media (max-width:500px){
+  .ContactForm{
+    flex-direction: column;
+  }
+  .ContactForm h1{
+    font-size: 10vw;
+  }
+
+  .ContactForm label{
+    font-size: 7vw;
+  }
+
+  .Form button{
+    margin: 15% 0 15% 0;
+    padding: 6%;
+    font-size: 7vw;
+  }
+}
+
+@media (min-width:768px) and (max-width:1024px){
+  .ContactForm{
+    flex-direction: column;
+  }
+
+  .ContactForm h1{
+    font-size: 8vw;
+  }
+
+  .ContactForm label{
+    font-size: 4vw;
+  }
+
+  .ContactForm input{
+    font-size: 4vw;
+  }
+
+  .Form button{
+    margin: 15% 0 15% 0;
+    padding: 4%;
+    font-size: 4vw;
+  }
+}
+
+@media  screen and (min-width: 1920px){
+  .ContactForm input{
+    font-size: 1.5vw;
+  }
+
+  .ContactForm h1{
+    font-size: 3vw;
+  }
+}

@@ -27,3 +27,67 @@
 .hrTag{
   bottom: 45%;
 }
+
+@media (max-width:500px){
+  .Contact{
+    flex-direction: column;
+  }
+
+  .ContactTitle{
+    padding: 5% 0 5% 0;
+  }
+
+  .ContactTitle h1{
+    font-size: 10vw;
+  }
+
+  .ContactText p{
+    font-size: 4.5vw;
+  }
+
+  .ContactText img{
+    width: 45px;
+  }
+
+  .ContactGit{
+    padding: 0 15% 0 0;
+  }
+  
+}
+
+@media (min-width:768px) and (max-width:1024px) {
+  .Contact{
+    flex-direction: column;
+  }
+
+  .ContactTitle h1{
+    font-size: 7vw;
+  }
+
+  .ContactText p{
+    font-size: 3vw;
+  }
+
+  .ContactText img{
+    width: 50px;
+  }
+
+  .ContactGit{
+    padding: 0 10% 0 0;
+  }
+
+  
+}
+
+@media  screen and (min-width: 1920px){
+  .ContactTitle h1{
+    font-size: 3vw;
+  }
+
+  .ContactText p{
+    font-size: 1.5vw;
+  }
+  .ContactText img{
+    width: 50px;
+  }
+}
