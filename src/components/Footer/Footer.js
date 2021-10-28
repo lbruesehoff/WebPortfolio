@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {Link} from 'react-router-dom'
 import './Footer.css';
 import logo from './logo.svg'
 import gitHub from './github.svg'
@@ -16,9 +17,9 @@ export default class Footer extends Component {
                 <a href="/"><img src={logo} /></a>
               </div>
             </li>
-            <a href="/"><li>Home</li></a>
-            <a href="../../Portfolio"><li>Portfolio</li></a>
-            <a href="../../Contact"><li>Contact</li></a>
+            <Link to="/"><li>Home</li></Link>
+            <Link to="../../Portfolio"><li>Portfolio</li></Link>
+            <Link to="../../Contact"><li>Contact</li></Link>
             <ul className='ul2'>
               <li>
                 <div className="gitHub">
