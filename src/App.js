@@ -16,11 +16,11 @@ function App() {
         <NavbarComp />
         <div className="Content">
           <Switch>
-            <Route exact component={Home} path="/"/>
+            <Route exact component={Home} path={"/"}/>
 
-            <Route path="/Portfolio" component={Portfolio}/>
+            <Route path={"/Portfolio"} component={Portfolio}/>
          
-            <Route path="/Contact" component={Contact}/> 
+            <Route path={"/Contact"} component={Contact}/> 
           </Switch>
         </div>
         <Footer/>
