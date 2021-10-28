@@ -19,7 +19,7 @@ export default class NavbarComp extends Component {
                 <Nav className="ms-auto">
                   <Link to="/">Home</Link>
                   <Link to="../../Portfolio">Portfolio</Link>
-                  <Nav.Link href="../../Contact">Contact Me</Nav.Link>
+                  <Link to="../../Contact">Contact</Link>
                 </Nav>
               </Navbar.Collapse>
               </Container>
