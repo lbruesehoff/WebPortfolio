@@ -70,9 +70,10 @@
 
   .about button{
     font-size: 5vw;
-    background-color: white;
-    color: black;
-    padding: 5%;
+    padding:4%;
+    background-color: #203a4c;
+    color: white;
+    border: none;
   }
 
 }

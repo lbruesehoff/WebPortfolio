@@ -50,6 +50,8 @@
     font-size: 5vw;
     padding: 5% 10%;
     margin: 15% 20%;
-    
+    background-color: #203a4c;
+    color: white;
+    border:none;
   }
 }
