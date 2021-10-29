@@ -70,6 +70,8 @@
 
   .about button{
     font-size: 5vw;
+    background-color: #33323d;
+    color: white;
   }
 
 }

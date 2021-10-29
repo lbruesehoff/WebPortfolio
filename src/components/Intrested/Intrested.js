@@ -8,7 +8,7 @@ export default class Intrested extends Component {
 
         <h1>Intrested in collaborating on a project?</h1>
 
-        <a href="./Contact">
+        <a href="../../Contact">
           <button>Contact Me</button>
         </a>
         
