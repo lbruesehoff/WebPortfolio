@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
-import './Intrested.css'
+import './Intrested.css';
+import {Link} from "react-router-dom";
 
 export default class Intrested extends Component {
   render() {
@@ -8,9 +9,9 @@ export default class Intrested extends Component {
 
         <h1>Intrested in collaborating on a project?</h1>
 
-        <a href="../../Contact">
+        <Link to="../../Contact">
           <button>Contact Me</button>
-        </a>
+        </Link>
         
       </div>
     )

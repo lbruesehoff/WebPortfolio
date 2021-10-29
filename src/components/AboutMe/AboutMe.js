@@ -1,5 +1,6 @@
 import './AboutMe.css'
 import React, { Component } from 'react'
+import {Link} from 'react-router-dom'
 
 
 export default class AboutMe extends Component {
@@ -21,7 +22,7 @@ export default class AboutMe extends Component {
               I love being out in nature whether that’s going for a walk, run or cycling. I’d love 
               you to check out my work.
             </p>
-            <a href="../../Portfolio"><button>Go to portfolio</button></a>
+            <Link to="../../Portfolio"><button>Go to portfolio</button></Link>
             <hr/>
           </div>
       </div>
