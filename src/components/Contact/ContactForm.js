@@ -26,22 +26,22 @@ export default function ContactForm() {
 
             <div className="form-group">
                 <label for="exampleFormControlSelect1">Name</label>
-                <input type="text" class="form-control" size="60" placeholder="Name" name='name'/>
+                <input type="text" class="form-control" size="60" placeholder="Name" name='name' required/>
               </div>
 
               <div className="form-group">
                 <label for="exampleFormControlSelect1">Subject</label>
-                <input type="text" class="form-control" size="60" placeholder="Subject" name='subject'/>
+                <input type="text" class="form-control" size="60" placeholder="Subject" name='subject' required/>
               </div>
 
               <div className="form-group">
                 <label for="exampleFormControlInput1">Email address</label>
-                <input type="email" class="form-control" placeholder="Email" name='email'/>
+                <input type="email" class="form-control" placeholder="Email" name='email' required/>
               </div>
       
               <div className="form-group">
                 <label for="exampleFormControlTextarea1">Message</label>
-                <textarea className="form-control" rows="3" name='message'></textarea>
+                <textarea className="form-control" rows="3" name='message'  required></textarea>
               </div>
               <button type="submit">Send Message</button>
           </form>
