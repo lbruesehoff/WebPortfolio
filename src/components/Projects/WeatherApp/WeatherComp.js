@@ -15,6 +15,7 @@ export default class WeatherComp extends Component {
             and what it “feels” like in the city the user enters. 
           </p>
           <a href="https://weather-checker-app.herokuapp.com/index.html" target="_blank"><button>View Project</button></a>
+          <a href="https://github.com/lbruesehoff/WeatherChecker" target="_blank"><button>View Code</button></a>
           <hr/>
         </div>
       </div>
