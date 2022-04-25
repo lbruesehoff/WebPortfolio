@@ -11,8 +11,9 @@ class Monster extends Component {
             <hr/>
             <h1>Monster Filter App</h1>
             <p>
-                This project uses React hooks to filter out the monsters live as you type. This project uses
-                a json placeholder API to fetch user names and emails. This project was created to get a better understanding of React.
+                This project uses React hooks to filter out the monsters live as you type.
+                The API used is a json placeholder to fetch user names and emails to be displayed.
+                I created this project because I wanted to get a better understanding of React.
                 This project made me have a better understanding of hooks and how things are rendered. 
             </p>
             <a href="https://warm-platypus-e33351.netlify.app/" target="_blank"><button>View Project</button></a>
