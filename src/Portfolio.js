@@ -4,6 +4,7 @@ import VonzellaComp from './components/Projects/Vonzella/VonzellaComp';
 import WeatherComp from './components/Projects/WeatherApp/WeatherComp';
 import GitHubSearch from './components/Projects/GitHubSearch/GitHubSearch';
 import StudioGhibli from './components/Projects/StudioGhibli/StudioGhibli';
+import Monster from './components/Projects/Monster/Monster';
 
 export default class Portfolio extends Component {
   render() {
@@ -12,8 +13,9 @@ export default class Portfolio extends Component {
         <VonzellaComp/>
         <GitHubSearch />
         <StudioGhibli />
-        <PlanetComp />
+        <Monster />
         <WeatherComp />
+        <PlanetComp />
       </div>
     )
   }
